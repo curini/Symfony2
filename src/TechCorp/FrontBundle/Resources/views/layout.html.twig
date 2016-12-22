@@ -1,0 +1,23 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+ <link href="http://localhost:82/Logidim%203/css/bootstrap.css" rel="stylesheet">
+ <link href="http://localhost:82/Logidim%203/css/logidim.css" rel="stylesheet" >
+{% endblock stylesheets %}
+
+{% block javascript_head %}
+ <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+ <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+{% endblock javascript_head %}
+
+{% block javascript_body %}
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+{% endblock javascript_body %}
+
+{% block body%}
+{% include "TechCorpFrontBundle:_components:navigation.html.twig" %}
+
+{% block content %}
+{% endblock content%}
+{% endblock body%}
+
